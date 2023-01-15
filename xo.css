@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    
+    background: linear-gradient(#01012e,#240019);
+    height: 100vh;
+   
+}
+.header{
+    background: url('stars1.png');
+    height: 100vh;
+}
+.game{
+width:225px;
+text-align: center;
+font-family: sans-serif;
+color: #fff;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(3 , 1fr);
+background: url('stars1.png');
+}
+.tittle{
+    background: rgb(255, 34, 237);
+    padding: 5px 0;
+margin-left: 40%;
+margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    width: 300px;
+    
+}
+span{
+    color:#fa0;
+}
+.squre{
+width: 80px;
+height: 80px;
+margin: 2px;
+background: rgb(111, 34, 255);
+
+font-size: 50px;
+font-weight: 500;
+
+}
+.squre:hover{
+    background: #000;
+    cursor: pointer;
+    transition: 0.4s;
+    transform: scale(1.1);
+}
